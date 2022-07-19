@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V99A9CbXHYW3v91JT1ncE2Ls8ssn/sE+NmtkTWQ9Efs=",
+  "Hash": "uFnlqL/VjkrWUHLG5KThWYcidzrwKN5qAsVo4QyeFB8=",
   "Source": "PersonalBlog",
   "BasePath": "_content/PersonalBlog",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\Programming\\2022\\C#\\PersonalBlog\\PersonalBlog\\wwwroot\\css\\Styles.css",
+      "SourceId": "PersonalBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Programming\\2022\\C#\\PersonalBlog\\PersonalBlog\\wwwroot\\",
+      "BasePath": "_content/PersonalBlog",
+      "RelativePath": "css/Styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Styles.css"
     },
     {
       "Identity": "E:\\Programming\\2022\\C#\\PersonalBlog\\PersonalBlog\\wwwroot\\favicon.ico",

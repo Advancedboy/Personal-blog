@@ -1,0 +1,17 @@
+﻿.post__item {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+    border: 2px solid black;
+}
+
+.post__item-info{
+    text-align: left;
+    display: block;
+}
+
+.item-info {
+    display: inline;
+    margin: 20px;
+    left: 0;
+}

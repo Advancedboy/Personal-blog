@@ -12,5 +12,7 @@ namespace PersonalBlog.Models
         public string PostText { get; set; }
         [Required(ErrorMessage = "Please select a topic for your message")]
         public string PostTopic { get; set; }
+
+        public string PostDate { get; set; } = DateTime.UtcNow.ToString();
     }
 }

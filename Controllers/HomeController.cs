@@ -8,10 +8,24 @@ namespace PersonalBlog.Controllers
     {
         public ViewResult Index()
         {
-            return View("HomePage");
+            return View("HomePage", PostRepository.Posts.Where(p => p.AuthorName != null));
         }
 
-        public ViewResult NewPost()
+        public ViewResult NewPost(PostModel postModel)
+        {
+            if (ModelState.IsValid)
+            {
+                PostRepository.AddNewPost(postModel);
+                return View("Success", postModel);
+            }
+            else
+            {
+                // Обнаружена ошибка проверки достоверности
+                return View();
+            }
+        }
+
+        public ViewResult Success()
         {
             return View();
         }
